@@ -1,40 +1,13 @@
-import random
+🧩 What I Learned:
+Function Definitions: Implemented the check function to determine the game outcome.
+Conditional Logic: Used if-else statements to compare choices and declare the winner.
+Random Number Generation: Employed random.randint to simulate the computer’s choice.
+🧠 Next Steps:
+Adding more features like score tracking.
+Enhancing the user interface for a better experience.
+Exploring advanced algorithms for game strategies.
+I hope you find this simple game interesting! 😊 Feel free to try it out and share your thoughts or improvements.
 
-def check():
-    if comp == user:
-        return 0 
-    if comp == 0 and user == 2:
-        return -1
-    if comp == 1 and user == 0:
-        return -1
-    if comp == 2 and user == 1:
-        return -1
-    
-    else:
-        1
+Happy coding! 💻🚀
 
-print(">>>>>>>>>>>>>>>>>>>>> Welcome to Rock Paper and Scissor game <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
-
-comp = random.randint(0,2)
-# while user:
-#     if(user>3):
-#         break
-user = int(input("0 is Rock, 1 is for paper, 2 is for scissor \n Enter the number : "))
-
-
-print(f"comp choosen : {comp}")
-print(f"user choosen : {user}")
-
-
-score = check()
-if score == 0:
-    print("It's a draw !!")
-    print("Play again")
-elif score == -1:
-    print("You loose!!")
-    print("Play again")
-elif score == 1:
-    print("Congratulations!! You won ")
-    print("Play again")
-else:
-    print(" Opps!! choose number between 0 to 2")
+#Python #Programming #Coding #PythonProjects #LearnToCode #RockPaperScissors #SoftwareDevelopment #Tech #ProgrammingJourney
